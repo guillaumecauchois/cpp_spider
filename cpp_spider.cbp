@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="cpp_spider"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/guillobits/Projects/epitech/tek3/cpp_spider"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/guillobits/Projects/epitech/tek3/cpp_spider"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/guillobits/Projects/epitech/tek3/cpp_spider"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spider">
+				<Option output="/home/guillobits/Projects/epitech/tek3/cpp_spider/spider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guillobits/Projects/epitech/tek3/cpp_spider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common"/>
+					<Add directory="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 spider"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="spider/fast">
+				<Option output="/home/guillobits/Projects/epitech/tek3/cpp_spider/spider" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/guillobits/Projects/epitech/tek3/cpp_spider"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common"/>
+					<Add directory="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/../../../../include/c++/7.2.0/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/7.2.0/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 spider/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/home/guillobits/Projects/epitech/tek3/cpp_spider/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/Event.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/EventFactory.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/EventType.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/FileManager.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/MouseButton.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/Position.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/Process.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/SerializeHandler.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/SpiderException.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/SpiderSession.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/common/TcpConnection.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server/EventBeautifuler.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server/Log.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server/ServerCommand.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/inc/server/ServerCore.hpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/Event.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/EventFactory.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/FileManager.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/MouseButton.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/Position.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/Process.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/SpiderException.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/common/SpiderSession.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/server/EventBeautifuler.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/server/Log.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/server/ServerCore.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/src/server/main.cpp">
+			<Option target="spider"/>
+		</Unit>
+		<Unit filename="/home/guillobits/Projects/epitech/tek3/cpp_spider/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
